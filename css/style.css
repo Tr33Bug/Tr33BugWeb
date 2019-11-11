@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+body {
+    font-family: 'Roboto Mono', courier, monospace !important;
+}
+
+.fakeimg {
+    height: 200px;
+    background: rgb(109, 0, 63);
+}
+
+.header {
+    background-color: rgb(59, 33, 48) !important;
+    color: white !important;
+}
+
+li:hover {
+    animation: color-change 10s linear infinite;
+    background-color: rgb(109, 0, 63);
+}
